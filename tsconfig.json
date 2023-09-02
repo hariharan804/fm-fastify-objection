@@ -1,0 +1,10 @@
+{
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "types": ["dotenv"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["fastify-helmet"]
+}
